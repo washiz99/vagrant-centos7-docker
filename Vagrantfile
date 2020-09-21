@@ -13,9 +13,9 @@ Vagrant.configure("2") do |config|
   config.vm.synced_folder ".", "/vagrant", disabled: true
 
   # Provider-specific configuration
-  config.vm.provider "virtualbox" do |vb|
-    # Memory
-    vb.memory = "2048"
+  config.vm.provider "virtualbox" do |v|
+    v.cpu = 2
+    v.memory = 2048
   end
 
   # Provisioning
