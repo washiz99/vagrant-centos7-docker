@@ -8,9 +8,10 @@ Start CentOS 7 by vagrant installed Docker and docker-compose.
 
 ## Packages installed on CentOS
 
-- git : latest
-- docker : latest
-- docker-compose : 1.25.3
+- git : latest (2.24.1 at 9/21/2020)
+- docker : latest (19.03.13 at 9/21/2020)
+- docker-compose : 1.27.2
+- node : v12.x (v12.18.4 at 9/21/2020)
 
 ## Usage
 
