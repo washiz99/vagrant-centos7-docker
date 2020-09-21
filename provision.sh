@@ -6,9 +6,8 @@ sed -i 's/^SELINUX=enforcing/SELINUX=disabled/' /etc/selinux/config
 
 # Install git
 yum -y remove git
-yum -y install https://centos7.iuscommunity.org/ius-release.rpm
-yum -y install git2u yum-utils
-yum-config-manager --disable ius
+yum -y install https://packages.endpoint.com/rhel/7/os/x86_64/endpoint-repo-1.7-1.x86_64.rpm
+yum -y install git
 
 # Install docker
 yum install -y yum-utils
